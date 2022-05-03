@@ -63,6 +63,11 @@ ul{
 }
 /* start container rules */
 
+@media (max-width:576px) {
+    .container{
+      width: 99%;
+    }
+  }
 
 @media (min-width: 768px) {
     .container {
@@ -83,7 +88,7 @@ ul{
 }
 .container{
     margin : 0 auto;
-    padding: 0;
+    padding: 0 10px;
 }
 /* end container rules */
 /* start header  */
@@ -773,7 +778,7 @@ margin-bottom: 10px;
  }
  @media (max-width:991px) {
     .pricing .pricing-box{
-        flex-basis: 50%;
+        flex-basis: 49%;
     }
  }
  .pricing .pricing-box .pricing-header{
